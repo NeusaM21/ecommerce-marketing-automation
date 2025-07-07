@@ -29,6 +29,15 @@ Os principais objetivos deste projeto são:
 * Aumentar a **taxa de recompra** de clientes em **10%**.
 * Melhorar a **experiência do cliente** no pós-compra e incentivar feedback.
 
+
+## 🎯 Público-Alvo
+
+Este projeto foi desenvolvido com foco nos seguintes perfis:
+
+- **Recrutadores e profissionais de tecnologia** que desejam avaliar habilidades em automação, Python e marketing digital.
+- **Donos de e-commerce ou gestores de marketing** que buscam entender como implementar automações de recuperação de carrinho e pós-venda.
+- **Desenvolvedores iniciantes ou intermediários** que queiram aprender como integrar ferramentas como Klaviyo, Make, WhatsApp API e Google Sheets com Python.
+
 ---
 
 ## ✨ Funcionalidades Principais
