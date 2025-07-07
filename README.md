@@ -4,25 +4,21 @@
 ![Tecnologias Principais](https://img.shields.io/badge/Tech-Python%2C%20Klaviyo%2C%20Shopify%20(Conceitual)-blue)
 ![Licença MIT](https://img.shields.io/badge/License-MIT-green)
 
----
-
 ## 📝 Visão Geral do Projeto
 
 Este projeto de portfólio demonstra a implementação de um sistema robusto de automação de marketing e vendas focado em e-commerce. O objetivo principal é otimizar o funil de vendas, recuperando carrinhos abandonados e fomentando a recompra, resultando em aumento de receita e fidelização de clientes para uma loja online fictícia de produtos artesanais.
 
 ---
-
 ## 🔍 Problema Endereçado
 
 Lojas online frequentemente enfrentam desafios como:
 
-* **Altas taxas de abandono de carrinho**, resultando em perdas significativas de vendas.
-* **Baixa taxa de recompra**, indicando a necessidade de um relacionamento pós-venda mais eficaz.
+* Altas taxas de abandono de carrinho, resultando em perdas significativas de vendas.
+* Baixa taxa de recompra, indicando a necessidade de um relacionamento pós-venda mais eficaz.
 
 Esta automação foi projetada para mitigar esses problemas, transformando visitantes interessados em clientes fiéis e maximizando o retorno sobre o investimento em aquisição.
 
 ---
-
 ## 🎯 Objetivos da Automação
 
 Os principais objetivos deste projeto são:
@@ -32,19 +28,17 @@ Os principais objetivos deste projeto são:
 * Melhorar a **experiência do cliente** no pós-compra e incentivar feedback.
 
 ---
-
 ## ✨ Funcionalidades Principais
 
 O sistema de automação implementa os seguintes fluxos e capacidades:
 
-1.  **Sequência de E-mails de Recuperação de Carrinho:** Série de e-mails automatizados e personalizados para incentivar a finalização da compra, incluindo lembretes, urgência e ofertas de desconto.
-2.  **Fluxo de Boas-Vindas e Pós-Compra:** E-mails de confirmação de pedido, solicitação de avaliação/feedback e recomendações de produtos personalizadas para incentivar a recompra.
-3.  **Qualificação de Leads (Lead Scoring - via Python/Módulo `lead_scoring.py`):** Atribuição de pontuação a leads com base em seu comportamento (visitas a páginas de produto, cliques em e-mails, etc.), ajudando a identificar os clientes mais engajados e com maior probabilidade de conversão.
-4.  **Notificações Automatizadas (WhatsApp - via Python/Módulo `whatsapp_bot.py`):** Capacidade (simulada) de enviar mensagens automatizadas via WhatsApp para lembretes de carrinho ou confirmações importantes, utilizando bibliotecas Python para interação com APIs de mensageria.
-5.  **Geração de Relatórios Simplificados:** Coleta, processamento e apresentação de dados de performance dos fluxos, usando scripts Python para manipular e analisar informações de vendas e engajamento.
+1. **Sequência de E-mails de Recuperação de Carrinho:** Série de e-mails automatizados e personalizados para incentivar a finalização da compra, incluindo lembretes, urgência e ofertas de desconto.
+2. **Fluxo de Boas-Vindas e Pós-Compra:** E-mails de confirmação de pedido, solicitação de avaliação/feedback e recomendações de produtos personalizadas para incentivar a recompra.
+3. **Qualificação de Leads (Lead Scoring - via Python/Módulo `lead_scoring.py`):** Atribuição de pontuação a leads com base em seu comportamento (visitas a páginas de produto, cliques em e-mails, etc.), ajudando a identificar os clientes mais engajados e com maior probabilidade de conversão.
+4. **Notificações Automatizadas (WhatsApp - via Python/Módulo `whatsapp_bot.py`):** Capacidade (simulada) de enviar mensagens automatizadas via WhatsApp para lembretes de carrinho ou confirmações importantes, utilizando bibliotecas Python para interação com APIs de mensageria.
+5. **Geração de Relatórios Simplificados:** Coleta, processamento e apresentação de dados de performance dos fluxos, usando scripts Python para manipular e analisar informações de vendas e engajamento.
 
 ---
-
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
 Este projeto faz uso e demonstra proficiência nas seguintes tecnologias e plataformas:
@@ -63,7 +57,6 @@ Este projeto faz uso e demonstra proficiência nas seguintes tecnologias e plata
 * **Controle de Versão:** Git & GitHub
 
 ---
-
 ## 🚀 Demonstração
 
 Esta seção conterá recursos visuais para ilustrar o projeto em ação.
@@ -81,24 +74,22 @@ Esta seção conterá recursos visuais para ilustrar o projeto em ação.
     * *Um screenshot de um relatório simulado gerado pelo seu script Python, mostrando métricas como taxa de recuperação ou vendas atribuídas à automação.*
 
 ---
-
 ## ⚙️ Como o Projeto Funciona (para Desenvolvedores/Analisadores)
 
 Para entender a lógica de automação e a estrutura de código, siga estes passos:
 
-1.  **Clone o Repositório:**
+1. **Clone o Repositório:**
     ```bash
-    git clone https://github.com/NeusaM21/automacao-ecommerce-carrinho-pos-compra.git
-cd automacao-ecommerce-carrinho-pos-compra.git
+    git clone [https://github.com/NeusaM21/automacao-ecommerce-carrinho-pos-compra.git](https://github.com/NeusaM21/automacao-ecommerce-carrinho-pos-compra.git)
     cd automacao-ecommerce-carrinho-pos-compra
     ```
-    
-2.  **Estrutura de Pastas:**
+
+2. **Estrutura de Pastas:**
     * `docs/`: Contém a documentação detalhada do projeto, incluindo análise, fluxos e implementação.
     * `code/`: Contém os scripts Python e módulos auxiliares, além de exemplos de dados.
     * `assets/`: Armazena todas as imagens, diagramas, GIFs e screenshots de apoio.
 
-3.  **Configuração do Ambiente Python (se você for rodar os scripts):**
+3. **Configuração do Ambiente Python (se você for rodar os scripts):**
     * Certifique-se de ter Python instalado.
     * Instale as dependências listadas no `requirements.txt`:
         ```bash
@@ -108,7 +99,7 @@ cd automacao-ecommerce-carrinho-pos-compra.git
         * Copie o template: `cp code/config_template.py code/config.py`
         * Edite `code/config.py` e preencha com credenciais fictícias ou de teste para as APIs que você usaria (Klaviyo, WhatsApp, etc.).
 
-4.  **Execução dos Scripts (Exemplo):**
+4. **Execução dos Scripts (Exemplo):**
     * O arquivo `main.py` orquestra as automações. Você pode executá-lo para simular o processo:
         ```bash
         python main.py
@@ -116,7 +107,6 @@ cd automacao-ecommerce-carrinho-pos-compra.git
     * Explore os módulos em `code/modules/` para entender as funcionalidades específicas de envio de e-mail, lead scoring e o bot de WhatsApp.
 
 ---
-
 ## 📚 Documentação Detalhada
 
 Para uma compreensão aprofundada da análise estratégica, dos fluxos de automação e dos detalhes da implementação, explore os arquivos na pasta `docs/`:
@@ -131,16 +121,14 @@ Para uma compreensão aprofundada da análise estratégica, dos fluxos de automa
     * Análise dos resultados esperados e o impacto gerado pela automação.
 
 ---
-
 ## 👤 Autor
 
-**NeusaM21**  
+**NeusaM21**
 Desenvolvedora de Automação & Analista de Marketing Digital
 
 - 📧 [Email](mailto:contact.neusam21@gmail.com)
 
 ---
-
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
