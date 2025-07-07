@@ -66,17 +66,17 @@ Este projeto faz uso e demonstra proficiência nas seguintes tecnologias e plata
 
 Esta seção conterá recursos visuais para ilustrar o projeto em ação.
 
-* **Vídeo/GIF Animado do Fluxo de Carrinho Abandonado:**
-    ![GIF Carrinho](assets/gifs/carrinho.gif)
+* 🛒 **GIF Animado do Fluxo de Carrinho Abandonado:**  
+  ![GIF Carrinho](assets/gifs/carrinho.gif)
 
-* **Screenshot do Workflow no Klaviyo:**
-    ![Workflow Klaviyo](assets/screenshots/klaviyo_workflow.png)
+* 📊 **Screenshot do Workflow no Klaviyo:**  
+  ![Workflow Klaviyo](assets/screenshots/klaviyo_workflow.png)
 
-* **Exemplo de E-mail de Recuperação de Carrinho:**
-    ![Email Recuperação](assets/screenshots/email_recuperacao.png)
+* ✉️ **Exemplo de E-mail de Recuperação de Carrinho:**  
+  ![Email Recuperação](assets/screenshots/email_recuperacao.png)
 
-* **Exemplo de Relatório de Performance (gerado por Python):**
-    ![Relatório Python](assets/screenshots/relatorio.png)
+* 📈 **Exemplo de Relatório de Performance (gerado por Python):**  
+  ![Relatório Python](assets/screenshots/relatorio.png)
 
 ---
 
