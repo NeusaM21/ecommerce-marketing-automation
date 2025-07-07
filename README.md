@@ -92,8 +92,7 @@ Para entender a lógica de automação e a estrutura de código, siga estes pass
 cd automacao-ecommerce-carrinho-pos-compra.git
     cd automacao-ecommerce-carrinho-pos-compra
     ```
-    *(Substitua `[SEU_USUARIO]` pelo seu nome de usuário do GitHub.)*
-
+    
 2.  **Estrutura de Pastas:**
     * `docs/`: Contém a documentação detalhada do projeto, incluindo análise, fluxos e implementação.
     * `code/`: Contém os scripts Python e módulos auxiliares, além de exemplos de dados.
