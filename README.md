@@ -29,6 +29,7 @@ Os principais objetivos deste projeto são:
 * Aumentar a **taxa de recompra** de clientes em **10%**.
 * Melhorar a **experiência do cliente** no pós-compra e incentivar feedback.
 
+---
 
 ## 🎯 Público-Alvo
 
