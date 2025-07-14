@@ -35,9 +35,7 @@ O principal objetivo deste projeto é otimizar o funil de vendas e o relacioname
 
 Para direcionar nossas automações de forma eficaz, focamos em uma persona que representa nosso cliente ideal.
 
-<p align="center">
-  <img src="../../assets/screenshots/persona_clara.png" alt="Imagem da Persona Clara" width="500"/>
-</p>
+![Imagem da Persona Clara](../assets/screenshots/persona_clara.png)
 
 ### 📌 Perfil Geral
 
