@@ -31,33 +31,37 @@ O principal objetivo deste projeto é otimizar o funil de vendas e o relacioname
 
 ---
 
-## 1.3. 👩‍🎨 Persona: Clara – Designer Criativa e Compradora Experiente
+## 1.3. 👩‍🎨 Persona: Clara – Designer Criativa e Compradora Frequente
 
-Para direcionar nossas automações de forma eficaz, focamos em uma persona que representa nosso cliente ideal:
+Para direcionar nossas automações de forma eficaz, focamos em uma persona que representa nosso cliente ideal.
 
-### 🎯 Perfil Geral
+<p align="center">
+  <img src="../../assets/screenshots/persona_clara.png" alt="Imagem da Persona Clara" width="500"/>
+</p>
 
-* **Idade:** 28 anos  
-* **Profissão:** Designer Freelancer  
-* **Localização:** Centro urbano, apartamento pequeno, valoriza itens decorativos e presentes únicos.
+### 📌 Perfil Geral
+
+- **Idade:** 28 anos  
+- **Profissão:** Designer Freelancer  
+- **Localização:** Centro urbano, apartamento pequeno. Valoriza itens decorativos e presentes únicos.
 
 ### ⚠️ Desafios
 
-* Dificuldade em encontrar produtos verdadeiramente originais e não massificados.  
-* Frequentemente adiciona itens ao carrinho para "pensar melhor", mas se distrai e esquece.  
-* Prefere comprar online por conveniência, mas busca uma experiência personalizada.
+- Dificuldade em encontrar produtos verdadeiramente originais e não massificados.  
+- Frequentemente adiciona itens ao carrinho para "pensar melhor", mas se distrai e esquece.  
+- Prefere comprar online por conveniência, mas busca uma experiência personalizada.
 
 ### 🧠 Objetivos
 
-* Descobrir presentes criativos e itens de decoração que reflitam sua identidade.  
-* Encontrar lojas online confiáveis, com produtos de qualidade e bom atendimento.
+- Descobrir presentes criativos e itens de decoração que reflitam sua identidade.  
+- Encontrar lojas online confiáveis, com produtos de qualidade e bom atendimento.
 
 ### 🌐 Comportamento Online
 
-* Muito ativa no Instagram e Pinterest.  
-* Busca por termos como "presentes únicos" e "decoração artesanal".  
-* Sensível a ofertas e descontos, mas mais motivada pela **exclusividade**.  
-* Recebe muitas newsletters, mas só abre as que capturam atenção de cara.
+- Muito ativa no Instagram e Pinterest.  
+- Busca por termos como "presentes únicos" e "decoração artesanal".  
+- Sensível a ofertas e descontos, mas mais motivada pela **exclusividade**.  
+- Recebe muitas newsletters, mas só abre as que capturam atenção de cara.
 
 ---
 
@@ -87,4 +91,3 @@ A jornada da Clara em relação à nossa loja online é mapeada com foco nos pon
 ## ✅ Conclusão Estratégica
 
 Com base nesta análise, os fluxos de automação serão aplicados nos momentos de maior impacto da jornada: abandono de carrinho e pós-compra. O objetivo é aumentar a conversão, fidelizar clientes e criar uma experiência mais personalizada e eficiente — totalmente baseada no comportamento da nossa persona ideal, Clara.
-
