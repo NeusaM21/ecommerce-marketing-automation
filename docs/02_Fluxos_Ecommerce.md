@@ -22,7 +22,9 @@ Este fluxo é ativado automaticamente quando um cliente adiciona produtos ao car
 
 ### 📸 Ilustração do fluxo:
 
-![Fluxo de Automação de E-commerce](../../assets/screenshots/fluxo_automacao_ecommerce.png)
+<p align="center">
+  <img src="../assets/screenshots/fluxo_automacao_ecommerce.png" alt="Fluxo de Automação de E-commerce" width="700"/>
+</p>
 
 ---
 
