@@ -48,7 +48,7 @@ Plataforma de e-commerce utilizada apenas como referência para simulação de:
 
 ## 🤖 Bots Automatizados via Python
 
-Scripts desenvolvidos para simular interações automáticas via WhatsApp API:
+Scripts desenvolvidos para simular interações automáticas via API do WhatsApp:
 
 ### `whatsapp_bot.py`
 
@@ -93,7 +93,7 @@ Simulação de automações entre sistemas externos, como:
 | **VS Code**      | Ambiente principal de desenvolvimento                      |
 | **Git + GitHub** | Controle de versão e publicação do projeto                 |
 | **Draw.io**      | Criação de fluxogramas e esquemas visuais                  |
-| **Markdown**     | Documentação técnica no formato `.md`                      |
+| **Markdown (.md)** | Documentação técnica no formato Markdown                |
 | **ChatGPT**      | Apoio na estruturação, geração de conteúdo e simulações    |
 
 ---
