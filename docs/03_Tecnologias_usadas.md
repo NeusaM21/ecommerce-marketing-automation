@@ -1,20 +1,20 @@
 # 03 - Tecnologias e Ferramentas Utilizadas
 
-Este documento apresenta as principais tecnologias utilizadas na construção e simulação dos fluxos de automação do projeto. A proposta é demonstrar como ferramentas técnicas (reais e simuladas) podem ser integradas para otimizar conversão e fidelização em um e-commerce.
+Este documento apresenta as principais tecnologias aplicadas na construção e simulação dos fluxos de automação. A proposta é demonstrar como ferramentas técnicas — reais e simuladas — podem ser integradas para otimizar a conversão e a fidelização em um e-commerce.
 
 ---
 
 ## 🐍 Linguagem de Programação: Python
 
-Utilizado para criação de scripts personalizados de automação, geração de relatórios, bots de WhatsApp e integração com APIs.
+Python foi utilizado para desenvolver scripts de automação, geração de relatórios, bots de WhatsApp e integração com APIs externas.
 
-### 📚 Principais bibliotecas:
+### 📚 Bibliotecas principais:
 
 - `pandas` → Manipulação de dados (clientes, carrinhos, interações)  
 - `openpyxl` → Leitura e escrita de planilhas (XLSX, CSV)  
-- `requests` → Integração com APIs externas (WhatsApp, Klaviyo, Google Sheets)  
-- `matplotlib` → Criação de gráficos e visualizações  
-- `datetime` → Controle de datas e tempos em fluxos automatizados  
+- `requests` → Integração com APIs como WhatsApp, Klaviyo e Google Sheets  
+- `matplotlib` → Criação de gráficos e visualizações de desempenho  
+- `datetime` → Controle de datas, horários e delays nos fluxos
 
 ---
 
@@ -22,50 +22,49 @@ Utilizado para criação de scripts personalizados de automação, geração de 
 
 ### ✉️ Klaviyo (conceitual/simulado)
 
-Plataforma de automação de marketing voltada para e-commerce.
+Plataforma de automação de marketing focada em e-commerce.
 
-Utilizado para simular:
+Simulações realizadas:
 
-- Fluxo de **recuperação de carrinho**
-- Fluxo de **pós-compra e fidelização**
-- Envio de e-mails segmentados com base em eventos
+- Fluxo de **recuperação de carrinho**  
+- Fluxo de **pós-compra e fidelização**  
+- Envio de e-mails segmentados por comportamento  
 - Métricas de abertura, cliques e conversão
 
-📸 Exemplo de fluxo no Klaviyo:
-
+📸 Exemplo de fluxo no Klaviyo:  
 ![Klaviyo Flow](../assets/screenshots/klaviyo_workflow.png)
 
 ---
 
 ### 🛍️ Shopify (simulada)
 
-Plataforma de e-commerce usada apenas como referência para simular:
+Plataforma de e-commerce utilizada apenas como referência para simulação de:
 
-- Gatilhos como abandono de carrinho ou finalização de compra  
+- Gatilhos de abandono de carrinho e confirmação de pedido  
 - Consulta ao histórico de pedidos  
-- Perfis de clientes
+- Perfis de clientes e eventos da loja
 
 ---
 
 ## 🤖 Bots Automatizados via Python
 
-Scripts criados para simular interações automáticas com clientes via WhatsApp API:
+Scripts desenvolvidos para simular interações automáticas via WhatsApp API:
 
 ### `whatsapp_bot.py`
 
-- Envia lembretes de carrinho abandonado  
-- Confirma pedidos realizados  
-- Integração simulada com APIs como Z-API ou Twilio
+- Envio de lembretes de carrinho abandonado  
+- Confirmação de pedidos  
+- Simulações com APIs como Z-API e Twilio
 
 ---
 
 ## 📊 Google Sheets como base de CRM
 
-Google Sheets foi usado como banco de dados leve e acessível para simular:
+Planilhas do Google foram utilizadas como banco de dados leve e acessível para:
 
-- Listas segmentadas de clientes (ativos, inativos, engajados)  
-- Base de leads e carrinhos abandonados  
-- Geração de relatórios e acompanhamento via Excel
+- Segmentar listas de clientes (ativos, inativos, engajados)  
+- Simular leads e carrinhos abandonados  
+- Gerar relatórios com filtros e visualizações
 
 ---
 
@@ -73,29 +72,29 @@ Google Sheets foi usado como banco de dados leve e acessível para simular:
 
 ### 🔧 Make (ex-Integromat)
 
-Simulação de automações entre sistemas como:
+Simulação de automações entre sistemas externos, como:
 
 - Shopify + Klaviyo  
 - Klaviyo + WhatsApp  
 - Google Sheets + Python  
 
-Exemplos:
+🔁 Exemplos de automações:
 
 - Novo pedido → envia confirmação automática  
 - Carrinho abandonado → cria evento de follow-up  
-- Cliente inativo → envia campanha de reativação
+- Cliente inativo → dispara campanha de reativação
 
 ---
 
 ## 🛠️ Outras Ferramentas Utilizadas
 
-| Ferramenta       | Finalidade                                                      |
-|------------------|------------------------------------------------------------------|
-| **VS Code**      | Ambiente principal de desenvolvimento                          |
-| **Git + GitHub** | Controle de versão e publicação do projeto no portfólio        |
-| **Draw.io**      | Criação de fluxogramas e esquemas visuais                      |
-| **Markdown**     | Documentação técnica organizada no formato `.md`               |
-| **ChatGPT**      | Apoio na estruturação do conteúdo e geração de simulações      |
+| Ferramenta       | Finalidade                                                  |
+|------------------|-------------------------------------------------------------|
+| **VS Code**      | Ambiente principal de desenvolvimento                      |
+| **Git + GitHub** | Controle de versão e publicação do projeto                 |
+| **Draw.io**      | Criação de fluxogramas e esquemas visuais                  |
+| **Markdown**     | Documentação técnica no formato `.md`                      |
+| **ChatGPT**      | Apoio na estruturação, geração de conteúdo e simulações    |
 
 ---
 
@@ -109,4 +108,4 @@ Exemplos:
 
 ## ✅ Conclusão
 
-A união entre código, automação no-code e ferramentas de marketing digital permitiu a construção de um projeto realista, funcional e pronto para expansão. Todos os fluxos são aplicáveis em ambientes reais com pequenos ajustes, tornando este um projeto sólido para portfólio ou produção.
+A combinação entre código (Python), integrações no-code (Make) e plataformas de marketing (Klaviyo, Sheets) permitiu construir um projeto funcional, realista e escalável. Com pequenos ajustes, esses fluxos podem ser implementados em ambientes reais, tornando este projeto um ativo valioso no portfólio.
