@@ -1,4 +1,6 @@
-🛒 Automação Inteligente para E-commerce: Conversão e Pós-Compra 🚀
+# 🛒 Automação Inteligente para E-commerce
+
+### Conversão de Carrinhos e Fidelização 🚀
 
 ![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
 ![Tecnologias Principais](https://img.shields.io/badge/Tech-Python%2C%20Klaviyo%2C%20Shopify%20(Conceitual)-blue)
@@ -14,7 +16,7 @@ Este projeto de portfólio demonstra a implementação de um sistema robusto de 
 
 Lojas online frequentemente enfrentam desafios como:
 
-* Altas taxas de abandono de carrinho, resultando em perdas significativas de vendas.
+* Muitas vendas perdidas por causa do abandono de carrinho.
 * Baixa taxa de recompra, indicando a necessidade de um relacionamento pós-venda mais eficaz.
 
 Esta automação foi projetada para mitigar esses problemas, transformando visitantes interessados em clientes fiéis e maximizando o retorno sobre o investimento em aquisição.
@@ -45,47 +47,37 @@ Este projeto foi desenvolvido com foco nos seguintes perfis:
 
 O sistema de automação implementa os seguintes fluxos e capacidades:
 
-1. **Sequência de E-mails de Recuperação de Carrinho:** Série de e-mails automatizados e personalizados para incentivar a finalização da compra, incluindo lembretes, urgência e ofertas de desconto.
-2. **Fluxo de Boas-Vindas e Pós-Compra:** E-mails de confirmação de pedido, solicitação de avaliação/feedback e recomendações de produtos personalizadas para incentivar a recompra.
-3. **Qualificação de Leads (Lead Scoring - via Python/Módulo `lead_scoring.py`):** Atribuição de pontuação a leads com base em seu comportamento (visitas a páginas de produto, cliques em e-mails, etc.), ajudando a identificar os clientes mais engajados e com maior probabilidade de conversão.
-4. **Notificações Automatizadas (WhatsApp - via Python/Módulo `whatsapp_bot.py`):** Capacidade (simulada) de enviar mensagens automatizadas via WhatsApp para lembretes de carrinho ou confirmações importantes, utilizando bibliotecas Python para interação com APIs de mensageria.
-5. **Geração de Relatórios Simplificados:** Coleta, processamento e apresentação de dados de performance dos fluxos, usando scripts Python para manipular e analisar informações de vendas e engajamento.
+1. **Sequência de E-mails de Recuperação de Carrinho**
+2. **Fluxo de Boas-Vindas e Pós-Compra**
+3. **Lead Scoring com Python**
+4. **Notificações Automatizadas via WhatsApp (simulado)**
+5. **Relatórios de Performance com Python**
 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
-Este projeto faz uso e demonstra proficiência nas seguintes tecnologias e plataformas:
-
-* **Plataforma de E-commerce (Conceitual/Simulada):** Shopify
-    * Utilizada como base para os eventos de "carrinho abandonado" e "compra finalizada".
-* **Plataforma de Automação de Marketing / Email Marketing:** Klaviyo
-    * Escolha ideal para e-commerce devido às suas capacidades avançadas de segmentação, personalização e fluxos.
-* **Linguagem de Programação:** Python
-    * Para scripts personalizados de integração de dados, automação de tarefas específicas (como Lead Scoring), e simulação de notificações.
-        * Bibliotecas comuns: `pandas` (para manipulação de dados), `requests` (para interações com APIs), `openpyxl` (para ler/escrever em Excel).
-* **Ferramentas de Integração (Conceitual):** Zapier / Make (anteriormente Integromat)
-    * Consideradas para cenários mais complexos de conexão entre serviços que não possuem integração nativa direta com o Klaviyo.
-* **Gerenciamento de Dados:** Google Sheets / Arquivos CSV/XLSX
-    * Utilizados para simular dados de entrada (listas de clientes, carrinhos abandonados) e para armazenar resultados intermediários ou relatórios gerados pelos scripts Python.
-* **Controle de Versão:** Git & GitHub
+- **Shopify (Simulado)** – eventos de abandono de carrinho e compra
+- **Klaviyo** – fluxos de e-mails, segmentação e personalização
+- **Python** – automações, relatórios e integração com APIs
+- **Zapier / Make (No-Code - Simulado)** – automações entre ferramentas
+- **Google Sheets / CSV/XLSX** – simulação de dados e resultados
+- **Git & GitHub** – controle de versão e hospedagem
 
 ---
 
 ## 🚀 Demonstração
 
-Esta seção conterá recursos visuais para ilustrar o projeto em ação.
-
-* 🛒 **GIF Animado do Fluxo de Carrinho Abandonado:**  
+* 🛒 GIF do Fluxo de Carrinho:  
   ![GIF Carrinho](assets/gifs/carrinho.gif)
 
-* 📊 **Screenshot do Workflow no Klaviyo:**  
+* 📊 Workflow no Klaviyo:  
   ![Workflow Klaviyo](assets/screenshots/klaviyo_workflow.png)
 
-* ✉️ **Exemplo de E-mail de Recuperação de Carrinho:**  
+* ✉️ E-mail de Recuperação:  
   ![Email Recuperação](assets/screenshots/email_recuperacao.png)
 
-* 📈 **Exemplo de Relatório de Performance (gerado por Python):**  
+* 📈 Relatório de Performance:  
   ![Relatório Python](assets/screenshots/relatorio.png)
 
 ---
@@ -107,14 +99,17 @@ Para entender a lógica de automação e a estrutura de código, siga estes pass
     * `docs/code/`: Contém a documentação detalhada do projeto, incluindo análise, fluxos e resultados.
 
 3. **Configuração do Ambiente Python (se você for rodar os scripts):**
-    * Certifique-se de ter Python instalado.
+    * Certifique-se de ter o Python instalado.
     * Instale as dependências listadas no `requirements.txt`:
         ```bash
         pip install -r requirements.txt
         ```
     * Crie seu arquivo de configuração para as APIs (NÃO INCLUA CREDENCIAIS REAIS NESTE REPOSITÓRIO PÚBLICO!):
-        * Copie o template: `cp config_template.py config.py`
-        * Edite `config.py` e preencha com credenciais fictícias ou de teste para as APIs que você usaria (Klaviyo, WhatsApp, etc.).
+        * Copie o template:
+            ```bash
+            cp config_template.py config.py
+            ```
+        * Edite o `config.py` e preencha com credenciais fictícias ou de teste para as APIs que você usaria (Klaviyo, WhatsApp, etc.).
 
 4. **Execução dos Scripts (Exemplo):**
     * O arquivo `main.py` orquestra as automações. Você pode executá-lo para simular o processo:
@@ -129,26 +124,25 @@ Para entender a lógica de automação e a estrutura de código, siga estes pass
 
 Para uma compreensão aprofundada da análise estratégica, dos fluxos de automação e dos detalhes da implementação, explore os arquivos na pasta `docs/code/`:
 
-* [01 - Análise e Planejamento**](docs/01_Analise_Publico_Alvo.md)
-    * Problema, Objetivos, Persona e Mapeamento da Jornada do Cliente.
-* [**02 - Fluxos de Automação**](docs/code/02_Fluxos_Ecommerce.md)
-    * Diagramas e descrições detalhadas dos fluxos de recuperação de carrinho e pós-compra.
-* [03 - Tecnologias e Implementação](docs/03_Tecnologias_usadas.md)
-    * Como as automações seriam configuradas nas plataformas Shopify, Klaviyo e via scripts Python.
-* [**04 - Insights e Resultados Simulados**](docs/code/04_Insights_Resultados.md)
-    * Análise dos resultados esperados e o impacto gerado pela automação.
+* [**01 - Análise e Planejamento**](docs/01_Analise_Publico_Alvo.md)  
+  Problema, Objetivos, Persona e Mapeamento da Jornada do Cliente.
+* [**02 - Fluxos de Automação**](docs/code/02_Fluxos_Ecommerce.md)  
+  Diagramas e descrições detalhadas dos fluxos de recuperação de carrinho e pós-compra.
+* [**03 - Tecnologias e Implementação**](docs/03_Tecnologias_usadas.md)  
+  Como as automações seriam configuradas nas plataformas Shopify, Klaviyo e via scripts Python.
+* [**04 - Insights e Resultados Simulados**](docs/code/04_Insights_Resultados.md)  
+  Análise dos resultados esperados e o impacto gerado pela automação.
 
 ---
 
 ## 👤 Autor
 
 **NeusaM21**  
-Desenvolvedora de Automação & Analista de Marketing Digital
-
-- 📧 [Email](mailto:contact.neusam21@gmail.com)
+Dev Python com foco em Automação e Projetos de IA  
+📧 [Email](mailto:contact.neusam21@gmail.com)
 
 ---
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto está licenciado sob a Licença MIT – veja o arquivo [LICENSE](LICENSE) para detalhes.
