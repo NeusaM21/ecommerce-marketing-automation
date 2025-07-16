@@ -22,7 +22,7 @@ Recuperar vendas perdidas, criando um senso de urgência e personalizando a abor
 
 ### 📷 Ilustração do fluxo:
 
-![Fluxo de Automação - Recuperação de Carrinho](../../assets/screenshots/fluxo_automacao_ecommerce.png)
+![Fluxo de Automação de E-commerce](../assets/screenshots/fluxo_automacao_ecommerce.png)
 
 ---
 
@@ -53,7 +53,7 @@ Os fluxos são orquestrados com apoio de scripts Python e ferramentas no-code, s
 
 ### 📷 Diagrama das Tecnologias Envolvidas:
 
-![Fluxo de Tecnologias Usadas](../../assets/screenshots/fluxo_tecnologias_usadas.png)
+![Fluxo das Tecnologias Usadas](../assets/screenshots/fluxo_tecnologias_usadas.png)
 
 ---
 
