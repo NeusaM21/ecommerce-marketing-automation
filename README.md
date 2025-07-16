@@ -122,16 +122,20 @@ Para entender a lógica de automação e a estrutura de código, siga estes pass
 
 ## 📚 Documentação Detalhada
 
-Para uma compreensão aprofundada da análise estratégica, dos fluxos de automação e dos detalhes da implementação, explore os arquivos na pasta `docs/code/`:
+Para uma compreensão aprofundada da análise estratégica, dos fluxos de automação e dos detalhes da implementação, explore os arquivos na pasta `docs/`:
 
-* [**01 - Análise e Planejamento**](docs/01_Analise_Publico_Alvo.md)  
+- [01 - Análise e Planejamento](docs/01_Analise_Planejamento.md)  
   Problema, Objetivos, Persona e Mapeamento da Jornada do Cliente.
-* [**02 - Fluxos de Automação**](docs/code/02_Fluxos_Ecommerce.md)  
+
+- [02 - Fluxos de Automação](docs/02_Fluxos_Automacao.md)  
   Diagramas e descrições detalhadas dos fluxos de recuperação de carrinho e pós-compra.
-* [**03 - Tecnologias e Implementação**](docs/03_Tecnologias_usadas.md)  
+
+- [03 - Tecnologias e Implementação](docs/03_Tecnologias_usadas.md)  
   Como as automações seriam configuradas nas plataformas Shopify, Klaviyo e via scripts Python.
-* [**04 - Insights e Resultados Simulados**](docs/code/04_Insights_Resultados.md)  
+
+- [04 - Insights e Resultados Simulados](docs/04_Insights_Resultados.md)  
   Análise dos resultados esperados e o impacto gerado pela automação.
+
 
 ---
 
