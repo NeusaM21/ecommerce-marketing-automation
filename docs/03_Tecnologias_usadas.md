@@ -88,13 +88,13 @@ Simulação de automações entre sistemas externos, como:
 
 ## 🛠️ Outras Ferramentas Utilizadas
 
-| Ferramenta       | Finalidade                                                  |
-|------------------|-------------------------------------------------------------|
-| **VS Code**      | Ambiente principal de desenvolvimento                      |
-| **Git + GitHub** | Controle de versão e publicação do projeto                 |
-| **Draw.io**      | Criação de fluxogramas e esquemas visuais                  |
-| **Markdown (.md)** | Documentação técnica no formato Markdown                |
-| **ChatGPT**      | Apoio na estruturação, geração de conteúdo e simulações    |
+| Ferramenta           | Finalidade                                                  |
+|----------------------|-------------------------------------------------------------|
+| **VS Code**          | Ambiente principal de desenvolvimento                      |
+| **Git + GitHub**     | Controle de versão e publicação do projeto                 |
+| **Draw.io**          | Criação de fluxogramas e esquemas visuais                  |
+| **Markdown (.md)**   | Documentação técnica no formato Markdown                   |
+| **ChatGPT**          | Apoio na estruturação, geração de conteúdo e simulações    |
 
 ---
 
@@ -109,3 +109,8 @@ Simulação de automações entre sistemas externos, como:
 ## ✅ Conclusão
 
 A combinação entre código (Python), integrações no-code (Make) e plataformas de marketing (Klaviyo, Sheets) permitiu construir um projeto funcional, realista e escalável. Com pequenos ajustes, esses fluxos podem ser implementados em ambientes reais, tornando este projeto um ativo valioso no portfólio.
+
+---
+
+[🔗 Voltar para a documentação detalhada](../README.md)  
+[03 - Tecnologias e Implementação](docs/code/03_Tecnologias_usadas.md)
