@@ -133,7 +133,7 @@ Para uma compreensão aprofundada da análise estratégica, dos fluxos de automa
     * Problema, Objetivos, Persona e Mapeamento da Jornada do Cliente.
 * [**02 - Fluxos de Automação**](docs/code/02_Fluxos_Ecommerce.md)
     * Diagramas e descrições detalhadas dos fluxos de recuperação de carrinho e pós-compra.
-* [**03 - Tecnologias e Implementação**](docs/code/03_Tecnologias_usadas.md)
+* [03 - Tecnologias e Implementação](docs/03_Tecnologias_usadas.md)
     * Como as automações seriam configuradas nas plataformas Shopify, Klaviyo e via scripts Python.
 * [**04 - Insights e Resultados Simulados**](docs/code/04_Insights_Resultados.md)
     * Análise dos resultados esperados e o impacto gerado pela automação.
