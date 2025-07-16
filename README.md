@@ -136,6 +136,22 @@ Para uma compreensão aprofundada da análise estratégica, dos fluxos de automa
 - [04 - Insights e Resultados Simulados](docs/04_Insights_Resultados.md)  
   Análise dos resultados esperados e o impacto gerado pela automação.
 
+  ---
+
+
+  ## 📊 Dados de Exemplo
+
+Este projeto inclui arquivos fictícios para simular cenários reais de e-commerce. Eles estão localizados na pasta `code/data_samples/`:
+
+| Arquivo                      | Descrição                                 |
+|-----------------------------|-------------------------------------------|
+| `clientes.csv`              | Lista de clientes com dados simulados.    |
+| `carrinhos_abandonados.xlsx`| Simulação de carrinhos abandonados.       |
+
+> ⚠️ **Nota:**  
+> O GitHub não permite visualizar diretamente arquivos `.xlsx` na interface web.  
+> Para ver o conteúdo da planilha `carrinhos_abandonados.xlsx`, clique em **“Download”** ou **“View raw”** e abra localmente no Excel, LibreOffice ou outro programa compatível.
+
 
 ---
 
