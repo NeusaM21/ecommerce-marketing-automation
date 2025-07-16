@@ -83,9 +83,6 @@ O sistema de automação implementa os seguintes fluxos e capacidades:
 
 ## 🚀 Demonstração
 
-* 🛒 GIF do Fluxo de Carrinho:  
-  ![GIF Carrinho](assets/gifs/carrinho.gif)
-
 * 📊 Workflow no Klaviyo:  
   ![Workflow Klaviyo](assets/screenshots/klaviyo_workflow.png)
 
