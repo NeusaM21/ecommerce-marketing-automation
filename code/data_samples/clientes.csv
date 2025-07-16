@@ -1,0 +1,5 @@
+nome,email,telefone,visitou_3x,comprou_antes,abandonou_carrinho
+Clara Souza,clara@email.com,+5511999990001,True,False,True
+João Silva,joao@email.com,+5511988880002,True,True,False
+Ana Ribeiro,ana@email.com,+5511977770003,False,False,True
+Carlos Lima,carlos@email.com,+5511966660004,True,True,False
