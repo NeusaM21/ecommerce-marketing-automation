@@ -76,3 +76,9 @@ Desenvolver uma automação de marketing e vendas para e-commerce, com foco em:
 - Lead scoring ajuda a focar em quem realmente importa
 
 ---
+
+🔙 [Voltar para a documentação detalhada](../README.md)
+
+---
+
+

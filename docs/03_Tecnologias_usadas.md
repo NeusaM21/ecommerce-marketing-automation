@@ -112,5 +112,6 @@ A combinação entre código (Python), integrações no-code (Make) e plataforma
 
 ---
 
-[🔗 Voltar para a documentação detalhada](../README.md)  
-[03 - Tecnologias e Implementação](docs/code/03_Tecnologias_usadas.md)
+🔙 [Voltar para a documentação detalhada](../README.md)
+
+---
