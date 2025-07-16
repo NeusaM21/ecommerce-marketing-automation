@@ -27,70 +27,13 @@ Depois de ativar a automação de marketing, o cenário mudou drasticamente. Se 
 
 ## 📈 Gráfico 1: Antes vs Depois da Automação
 
-![Gráfico de Impacto da Automação](https://quickchart.io/chart?c={
-  type:'bar',
-  data:{
-    labels:['Recuperação de Carrinhos','Receita Mensal','Taxa de Abertura','Taxa de Cliques','Frequência de Recompra'],
-    datasets:[
-      {
-        label:'Antes',
-        backgroundColor:'rgba(255,99,132,0.6)',
-        data:[8,100,22,7,0.25]
-      },
-      {
-        label:'Depois',
-        backgroundColor:'rgba(75,192,192,0.6)',
-        data:[28,122,45,17,0.43]
-      }
-    ]
-  },
-  options:{
-    title:{
-      display:true,
-      text:'Comparativo de KPIs (Antes vs Depois)'
-    },
-    scales:{
-      yAxes:[{ticks:{beginAtZero:true}}]
-    }
-  }
-})
+![Gráfico de Impacto da Automação](https://quickchart.io/chart?c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Recupera%C3%A7%C3%A3o%20de%20Carrinhos%22%2C%22Receita%20Mensal%22%2C%22Taxa%20de%20Abertura%22%2C%22Taxa%20de%20Cliques%22%2C%22Frequ%C3%AAncia%20de%20Recompra%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Antes%22%2C%22backgroundColor%22%3A%22rgba(255%2C99%2C132%2C0.6)%22%2C%22data%22%3A%5B8%2C100%2C22%2C7%2C0.25%5D%7D%2C%7B%22label%22%3A%22Depois%22%2C%22backgroundColor%22%3A%22rgba(75%2C192%2C192%2C0.6)%22%2C%22data%22%3A%5B28%2C122%2C45%2C17%2C0.43%5D%7D%5D%7D%2C%22options%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Comparativo%20de%20KPIs%20(Antes%20vs%20Depois)%22%7D%2C%22scales%22%3A%7B%22yAxes%22%3A%5B%7B%22ticks%22%3A%7B%22beginAtZero%22%3Atrue%7D%7D%5D%7D%7D%7D)
 
 ---
 
 ## 📊 Gráfico 2: Desempenho de E-mails - Automação vs Manual
 
-![Desempenho de E-mails](https://quickchart.io/chart?c={
-  type:'bar',
-  data:{
-    labels:['Abertura','Cliques','Conversão'],
-    datasets:[
-      {
-        label:'Campanhas Automatizadas',
-        backgroundColor:'rgba(54,162,235,0.7)',
-        data:[45,17,9]
-      },
-      {
-        label:'Campanhas Manuais',
-        backgroundColor:'rgba(255,159,64,0.7)',
-        data:[22,7,3]
-      }
-    ]
-  },
-  options:{
-    title:{
-      display:true,
-      text:'Performance de E-mails: Automação vs Manual'
-    },
-    scales:{
-      yAxes:[{ticks:{beginAtZero:true, callback:function(value){return value + "%"}}]
-    },
-    tooltips:{
-      callbacks:{
-        label:function(tooltipItem){return tooltipItem.yLabel + "%"}
-      }
-    }
-  }
-})
+![Desempenho de E-mails](https://quickchart.io/chart?c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Abertura%22%2C%22Cliques%22%2C%22Convers%C3%A3o%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Campanhas%20Automatizadas%22%2C%22backgroundColor%22%3A%22rgba(54%2C162%2C235%2C0.7)%22%2C%22data%22%3A%5B45%2C17%2C9%5D%7D%2C%7B%22label%22%3A%22Campanhas%20Manuais%22%2C%22backgroundColor%22%3A%22rgba(255%2C159%2C64%2C0.7)%22%2C%22data%22%3A%5B22%2C7%2C3%5D%7D%5D%7D%2C%22options%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Performance%20de%20E-mails%3A%20Automacao%20vs%20Manual%22%7D%2C%22scales%22%3A%7B%22yAxes%22%3A%5B%7B%22ticks%22%3A%7B%22beginAtZero%22%3Atrue%2C%22callback%22%3A%22function(value)%7Breturn%20value%20%2B%20%27%25%27%7D%22%7D%7D%5D%7D%7D%7D)
 
 ---
 
