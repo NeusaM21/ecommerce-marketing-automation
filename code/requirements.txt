@@ -1,0 +1,6 @@
+pandas
+openpyxl
+python-dotenv
+requests
+smtplib    # embutida no Python, só como referência
+schedule   # se for usar automação por tempo (opcional)
