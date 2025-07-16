@@ -1,4 +1,4 @@
-# 01 - Análise e Planejamento do Projeto de Automação de E-commerce
+# # 01 - Análise e Planejamento da Automação de E-commerce
 
 Nesta seção, detalharemos o problema a ser resolvido, os objetivos que a automação visa alcançar e a persona principal do nosso público-alvo. Isso serve como a fundação estratégica para todo o projeto.
 
