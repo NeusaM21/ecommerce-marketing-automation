@@ -6,6 +6,21 @@
 ![Tecnologias Principais](https://img.shields.io/badge/Tech-Python%2C%20Klaviyo%2C%20Shopify%20(Conceitual)-blue)
 ![Licença MIT](https://img.shields.io/badge/License-MIT-green)
 
+## 🧭 Navegação Rápida
+
+- [📝 Visão Geral do Projeto](#-visão-geral-do-projeto)
+- [🔍 Problema Endereçado](#-problema-endereçado)
+- [🎯 Objetivos da Automação](#-objetivos-da-automação)
+- [🎯 Público-Alvo](#-público-alvo)
+- [✨ Funcionalidades Principais](#-funcionalidades-principais)
+- [🛠️ Tecnologias e Ferramentas Utilizadas](#️-tecnologias-e-ferramentas-utilizadas)
+- [🚀 Demonstração](#-demonstração)
+- [⚙️ Como o Projeto Funciona](#️-como-o-projeto-funciona-para-desenvolvedoresanalisadores)
+- [📚 Documentação Detalhada](#-documentação-detalhada)
+- [📊 Dados de Exemplo](#-dados-de-exemplo)
+- [👤 Autor](#-autor)
+- [📄 Licença](#-licença)
+
 ## 📝 Visão Geral do Projeto
 
 Este projeto de portfólio demonstra a implementação de um sistema robusto de automação de marketing e vendas focado em e-commerce. O objetivo principal é otimizar o funil de vendas, recuperando carrinhos abandonados e fomentando a recompra, resultando em aumento de receita e fidelização de clientes para uma loja online fictícia de produtos artesanais.
@@ -125,21 +140,13 @@ Para entender a lógica de automação e a estrutura de código, siga estes pass
 Para uma compreensão aprofundada da análise estratégica, dos fluxos de automação e dos detalhes da implementação, explore os arquivos na pasta `docs/`:
 
 - [01 - Análise e Público-Alvo](docs/01_Analise_Publico_Alvo.md)  
-  Problema, Objetivos, Persona e Mapeamento da Jornada do Cliente.
-
 - [02 - Fluxos de Ecommerce](docs/02_Fluxos_Ecommerce.md)  
-  Diagramas e descrições detalhadas dos fluxos de recuperação de carrinho e pós-compra.
-
 - [03 - Tecnologias e Implementação](docs/03_Tecnologias_usadas.md)  
-  Como as automações seriam configuradas nas plataformas Shopify, Klaviyo e via scripts Python.
+- [04 - Insights e Resultados Simulados](docs/04_Insights_Resultados.md)
 
-- [04 - Insights e Resultados Simulados](docs/04_Insights_Resultados.md)  
-  Análise dos resultados esperados e o impacto gerado pela automação.
+---
 
-  ---
-
-
-  ## 📊 Dados de Exemplo
+## 📊 Dados de Exemplo
 
 Este projeto inclui arquivos fictícios para simular cenários reais de e-commerce. Eles estão localizados na pasta `code/data_samples/`:
 
@@ -151,7 +158,6 @@ Este projeto inclui arquivos fictícios para simular cenários reais de e-commer
 > ⚠️ **Nota:**  
 > O GitHub não permite visualizar diretamente arquivos `.xlsx` na interface web.  
 > Para ver o conteúdo da planilha `carrinhos_abandonados.xlsx`, clique em **“Download”** ou **“View raw”** e abra localmente no Excel, LibreOffice ou outro programa compatível.
-
 
 ---
 
