@@ -1,4 +1,4 @@
-# 🛒 Automação de Marketing e Vendas para E-commerce: Recuperação de Carrinhos e Pós-Compra 🚀
+# 🛒 Automação de Marketing para E-commerce: Recuperação e Pós-Compra 🚀
 
 ![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
 ![Tecnologias Principais](https://img.shields.io/badge/Tech-Python%2C%20Klaviyo%2C%20Shopify%20(Conceitual)-blue)
