@@ -129,7 +129,7 @@ Para entender a lógica de automação e a estrutura de código, siga estes pass
 
 Para uma compreensão aprofundada da análise estratégica, dos fluxos de automação e dos detalhes da implementação, explore os arquivos na pasta `docs/code/`:
 
-* [**01 - Análise e Planejamento**](docs/code/01_Analise_Publico_Alvo.md)
+* [01 - Análise e Planejamento**](docs/01_Analise_Publico_Alvo.md)
     * Problema, Objetivos, Persona e Mapeamento da Jornada do Cliente.
 * [**02 - Fluxos de Automação**](docs/code/02_Fluxos_Ecommerce.md)
     * Diagramas e descrições detalhadas dos fluxos de recuperação de carrinho e pós-compra.
