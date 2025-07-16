@@ -33,7 +33,7 @@ Depois de ativar a automação de marketing, o cenário mudou drasticamente. Se 
 
 ## 📊 Gráfico 2: Desempenho de E-mails - Automação vs Manual
 
-![Desempenho de E-mails](https://quickchart.io/chart?c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Abertura%22%2C%22Cliques%22%2C%22Convers%C3%A3o%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Campanhas%20Automatizadas%22%2C%22backgroundColor%22%3A%22rgba(54%2C162%2C235%2C0.7)%22%2C%22data%22%3A%5B45%2C17%2C9%5D%7D%2C%7B%22label%22%3A%22Campanhas%20Manuais%22%2C%22backgroundColor%22%3A%22rgba(255%2C159%2C64%2C0.7)%22%2C%22data%22%3A%5B22%2C7%2C3%5D%7D%5D%7D%2C%22options%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Performance%20de%20E-mails%3A%20Automacao%20vs%20Manual%22%7D%2C%22scales%22%3A%7B%22yAxes%22%3A%5B%7B%22ticks%22%3A%7B%22beginAtZero%22%3Atrue%2C%22callback%22%3A%22function(value)%7Breturn%20value%20%2B%20%27%25%27%7D%22%7D%7D%5D%7D%7D%7D)
+![Desempenho de E-mails](https://quickchart.io/chart?c=%7B"type"%3A"bar"%2C"data"%3A%7B"labels"%3A%5B"Abertura"%2C"Cliques"%2C"Convers%C3%A3o"%5D%2C"datasets"%3A%5B%7B"label"%3A"Campanhas%20Automatizadas"%2C"backgroundColor"%3A"rgba(54%2C162%2C235%2C0.7)"%2C"data"%3A%5B45%2C17%2C9%5D%7D%2C%7B"label"%3A"Campanhas%20Manuais"%2C"backgroundColor"%3A"rgba(255%2C159%2C64%2C0.7)"%2C"data"%3A%5B22%2C7%2C3%5D%7D%5D%7D%2C"options"%3A%7B"title"%3A%7B"display"%3Atrue%2C"text"%3A"Performance%20de%20E-mails%3A%20Automacao%20vs%20Manual"%7D%2C"scales"%3A%7B"yAxes"%3A%5B%7B"ticks"%3A%7B"beginAtZero"%3Atrue%7D%7D%5D%7D%7D%7D)
 
 ---
 
